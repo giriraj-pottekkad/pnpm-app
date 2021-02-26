@@ -1,0 +1,28 @@
+{
+  "name": "pnpm-app",
+  "version": "0.0.1",
+  "description": "To check pnpm packaging",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giriraj-pottekkad/pnpm-app.git"
+  },
+  "author": "Giriraj",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/giriraj-pottekkad/pnpm-app/issues"
+  },
+  "homepage": "https://github.com/giriraj-pottekkad/pnpm-app#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.0",
+    "mocha": "^8.3.0",
+    "request": "^2.88.2"
+  }
+}
